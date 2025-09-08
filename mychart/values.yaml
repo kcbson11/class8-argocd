@@ -5,10 +5,10 @@
 replicaCount: 3
 
 image:
-  repository: nginx
+  repository: kc812/2402-myimage
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "alpine"
+  tag: "0.9"
 
 # imagePullSecrets: []
 # nameOverride: ""
